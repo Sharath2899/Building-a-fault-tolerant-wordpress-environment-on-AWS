@@ -7,7 +7,6 @@ Bash script to deploy wordpress app:
 
 #!/bin/bash
 
-
 yum install httpd php-mysql -y
 amazon-linux-extras install -y php7.3
 cd /var/www/html
